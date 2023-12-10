@@ -1,9 +1,9 @@
 import { randomUUID } from "crypto";
 
 class User {
-    private id: "string"
+    private _id: string
 
     constructor() {
-        
+        this._id = randomUUID()
     }
 }
